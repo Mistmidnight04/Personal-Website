@@ -1,0 +1,34 @@
+div {
+    font-family: Helvetica; 
+    background-color: #272D33;      
+    color: white;
+    font-size: 32px;    
+    padding: 5px;
+} 
+img {
+    width: 60px;
+}
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+ 
+#navDiv {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(159, 184, 184);
+}
+
+.navItems {
+
+}
+
+.div {
+    border: 50px blue;
+}
+
+.navItems:hover {
+    background-color: rgb(236, 13, 13);
+    opacity: 0.2;
+}
