@@ -1,14 +1,18 @@
+body {
+    background-color: hwb(0 0% 100%);
+}
+
 div {
     font-family: Helvetica; 
     background-color: #272D33;      
     color: white;
     font-size: 32px;    
     padding: 5px;
+    display: flex;
 } 
-img {
-    width: 60px;
-}
-a {
+
+
+.o {
     width: 20%;
     text-align: center;
     text-decoration: none;
@@ -17,18 +21,255 @@ a {
 #navDiv {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(159, 184, 184);
+    background-color: #272D33;
 }
 
 .navItems {
-
+    display: flex;
 }
 
-div {
-    border: 50px blue;
-}
 
 .navItems:hover {
     background-color: rgb(236, 13, 13);
     opacity: 0.2;
+}
+
+#firstTitles {
+margin-top: 10%;
+justify-content: space-evenly;
+}
+
+
+.about {
+    justify-content: space-evenly;
+    font-family: Helvetica; 
+    background-color: #000000;      
+    color: rgb(214, 23, 23);
+    font-size: 20px;    
+    padding: 5px;
+    display: flex;
+    
+}
+
+.line {
+    font-size: 15px;
+}
+
+
+#list {
+    background-color: rgb(0, 0, 0);
+}
+
+#list2 {
+    background-color: rgb(0, 0, 0);
+}
+
+.huh {
+    background-color: #000000;
+}
+
+#secondTitles {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #272D33;
+}
+
+#secondDesc {
+    background-color: #000000;
+    justify-content: space-evenly;
+}
+
+.desc {
+    background-color: #000000;
+}
+
+.desc2 {
+    background-color: #000000;
+}
+
+.title {
+    color: rgb(216, 99, 31);
+}
+
+#image {
+    background-color: #000000;
+    width: 135px;
+}
+
+#image:hover {
+    width: 50%;
+}
+
+.text-size {
+    font-size: 50%;
+
+}
+
+
+/* Julio Gutierrez Drop-Down */
+
+.dropbtn {
+    background-color: #272D33;
+    color: white;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-socials {
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 11, 11, 0.2);
+    z-index: 1;
+}
+
+.dropdown-socials a {
+    background-color: #000000;
+    color: rgb(250, 199, 199);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-socials {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(236, 13, 13); opacity: 0.2;}
+
+.dropdown-socials a:hover {background-color: rgb(104, 128, 235);}
+  
+
+/* End */
+
+
+
+/* Dropdown Education */
+
+.dropdown-education {
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 11, 11, 0.2);
+    z-index: 1;
+}
+
+.dropdown-education a {
+    background-color: #000000;
+    color: rgb(250, 199, 199);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-education {display: block;}
+
+.dropdown-education a:hover {background-color: rgb(104, 128, 235);}
+
+/* End */
+
+
+
+/* Volunteering */
+
+
+.dropdown-volunteering {
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 11, 11, 0.2);
+    z-index: 1;
+}
+
+.dropdown-volunteering a {
+    background-color: #000000;
+    color: rgb(250, 199, 199);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-volunteering {display: block;}
+
+.dropdown-volunteering a:hover {background-color: rgb(104, 128, 235);}
+
+/* End */
+
+
+
+/* Projects Dropdown */
+
+
+.dropdown-projects {
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 11, 11, 0.2);
+    z-index: 1;
+}
+
+.dropdown-projects a {
+    background-color: #000000;
+    color: rgb(250, 199, 199);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-projects {display: block;}
+
+.dropdown-projects a:hover {background-color: rgb(104, 128, 235);}
+
+
+/* End */
+
+.one {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.two {
+    margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.three {
+    margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.four {
+    margin-left: 16%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#top-images {
+    background-color: #000000;
+}
+
+#intro {
+    background-color: rgb(163, 130, 91);
+}
+
+.intro-content {
+    margin-left: 30%;
+    background-color: rgb(252, 104, 195);
+    color: #042344;
 }
